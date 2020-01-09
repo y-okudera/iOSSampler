@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  iOSSampler
+
+  Created by Yuki Okudera on 2020/01/09.
+  Copyright © 2020 YukiOkudera. All rights reserved.
+*/
+
+// MARK: - TopViewController.swift
+"Top" = "トップ";
