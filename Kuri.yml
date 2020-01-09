@@ -1,0 +1,6 @@
+DefaultTemplateDirectoryPath: ./Template/
+ProjectRootPath: ./
+ProjectFileName: iOSSampler.xcodeproj
+GenerateRootPath: ./iOSSampler/Modules/
+Target: iOSSampler
+ShouldRemoveLayerNameFromDirectory: false
