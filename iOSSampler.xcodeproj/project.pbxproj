@@ -99,13 +99,14 @@
 		648665D923C6BD9D0077D9FB /* iOSSampler */ = {
 			isa = PBXGroup;
 			children = (
-				648665DA23C6BD9D0077D9FB /* AppDelegate.swift */,
-				648665DC23C6BD9D0077D9FB /* SceneDelegate.swift */,
-				648665DE23C6BD9D0077D9FB /* ViewController.swift */,
+				6486660A23C6C1550077D9FB /* Application */,
+				6486660B23C6C2730077D9FB /* Data */,
+				6486660C23C6C2790077D9FB /* Extensions */,
 				648665E023C6BD9D0077D9FB /* Main.storyboard */,
-				648665E323C6BD9F0077D9FB /* Assets.xcassets */,
-				648665E523C6BD9F0077D9FB /* LaunchScreen.storyboard */,
-				648665E823C6BD9F0077D9FB /* Info.plist */,
+				6486660D23C6C2880077D9FB /* Modules */,
+				6486660E23C6C2990077D9FB /* Resources */,
+				6486660F23C6C2A40077D9FB /* Utilities */,
+				648665DE23C6BD9D0077D9FB /* ViewController.swift */,
 			);
 			path = iOSSampler;
 			sourceTree = "<group>";
@@ -126,6 +127,53 @@
 				648665FE23C6BDA00077D9FB /* Info.plist */,
 			);
 			path = iOSSamplerUITests;
+			sourceTree = "<group>";
+		};
+		6486660A23C6C1550077D9FB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				648665DA23C6BD9D0077D9FB /* AppDelegate.swift */,
+				648665DC23C6BD9D0077D9FB /* SceneDelegate.swift */,
+				648665E823C6BD9F0077D9FB /* Info.plist */,
+				648665E523C6BD9F0077D9FB /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6486660B23C6C2730077D9FB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6486660C23C6C2790077D9FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6486660D23C6C2880077D9FB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6486660E23C6C2990077D9FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				648665E323C6BD9F0077D9FB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6486660F23C6C2A40077D9FB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
-				INFOPLIST_FILE = iOSSampler/Info.plist;
+				INFOPLIST_FILE = iOSSampler/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,7 +503,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
-				INFOPLIST_FILE = iOSSampler/Info.plist;
+				INFOPLIST_FILE = iOSSampler/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
