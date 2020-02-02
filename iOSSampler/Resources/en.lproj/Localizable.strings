@@ -8,3 +8,8 @@
 
 // MARK: - TopViewController.swift
 "Top" = "Top";
+"NavigationBackButton event handling" = "NavigationBackButton event handling";
+
+// MARK: - NavigationNextViewController
+"Confirm" = "Confirm";
+"Your entries have not been saved.\nAre you sure you want to finish editing?" = "Your entries have not been saved.\nAre you sure you want to finish editing?";

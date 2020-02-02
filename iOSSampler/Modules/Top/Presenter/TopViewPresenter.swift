@@ -8,8 +8,9 @@
 
 import Foundation
 
-protocol TopViewPresentation: AnyObject {
-    func viewDidLoad()    
+protocol TopViewPresentation {
+    func viewDidLoad()
+    func tappedCell(indexPath: IndexPath)
 }
 
 
@@ -37,6 +38,15 @@ extension TopViewPresenter: TopViewPresentation {
         view?.tableView.dataSource = self.topListDataSource
         view?.tableView.delegate = view
         view?.tableView.reloadData()
+    }
+    
+    func tappedCell(indexPath: IndexPath) {
+        switch indexPath.row {
+        case 0:
+            router.showNavigationNext()
+        default:
+            print("default")
+        }
     }
 }
 
