@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol TopView: AnyObject, UITableViewDelegate {
+protocol TopView: UITableViewDelegate {
     var tableView: UITableView! { get }
 }
 
@@ -31,6 +31,6 @@ extension TopViewController: TopView {
 
 extension TopViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(#function, indexPath)
+        presenter.tappedCell(indexPath: indexPath)
     }
 }

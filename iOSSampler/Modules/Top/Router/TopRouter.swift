@@ -8,8 +8,9 @@
 
 import UIKit
 
-protocol TopWireframe: AnyObject {
+protocol TopWireframe {
     // 画面遷移を定義する
+    func showNavigationNext()
 }
 
 final class TopRouter {
@@ -38,4 +39,8 @@ final class TopRouter {
 
 extension TopRouter: TopWireframe {
     // 画面遷移を実装する
+    func showNavigationNext() {
+        let next = NavigationNextRouter.assembleModules()
+        self.viewController?.navigationController?.pushViewController(next, animated: true)
+    }
 }
