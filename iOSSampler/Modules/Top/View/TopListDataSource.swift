@@ -9,7 +9,10 @@
 import UIKit
 
 final class TopListDataSource: NSObject {
-    private(set) var sampleTitles: [String] = ["NavigationBackButton event handling".localized]
+    private(set) var sampleTitles: [String] = [
+        "NavigationBackButton event handling".localized,
+        "TableView with multiple cell types".localized
+    ]
     
     override init() {
         super.init()
