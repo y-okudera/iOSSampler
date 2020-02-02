@@ -8,9 +8,10 @@
 
 import UIKit
 
+/// 画面遷移を定義する
 protocol TopWireframe {
-    // 画面遷移を定義する
     func showNavigationNext()
+    func showProfile()
 }
 
 final class TopRouter {
@@ -37,10 +38,15 @@ final class TopRouter {
     }
 }
 
+/// 画面遷移を実装する
 extension TopRouter: TopWireframe {
-    // 画面遷移を実装する
     func showNavigationNext() {
         let next = NavigationNextRouter.assembleModules()
         self.viewController?.navigationController?.pushViewController(next, animated: true)
+    }
+    
+    func showProfile() {
+        let profile = ProfileRouter.assembleModules()
+        self.viewController?.navigationController?.pushViewController(profile, animated: true)
     }
 }

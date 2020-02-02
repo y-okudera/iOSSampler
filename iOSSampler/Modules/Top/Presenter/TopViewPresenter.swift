@@ -44,6 +44,8 @@ extension TopViewPresenter: TopViewPresentation {
         switch indexPath.row {
         case 0:
             router.showNavigationNext()
+        case 1:
+            router.showProfile()
         default:
             print("default")
         }

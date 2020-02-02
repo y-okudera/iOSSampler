@@ -9,7 +9,11 @@
 // MARK: - TopViewController.swift
 "Top" = "Top";
 "NavigationBackButton event handling" = "NavigationBackButton event handling";
+"TableView with multiple cell types" = "TableView with multiple cell types";
 
 // MARK: - NavigationNextViewController
 "Confirm" = "Confirm";
 "Your entries have not been saved.\nAre you sure you want to finish editing?" = "Your entries have not been saved.\nAre you sure you want to finish editing?";
+
+// MARK: - ProfileViewController
+"Profile" = "Profile";

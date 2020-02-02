@@ -9,7 +9,11 @@
 // MARK: - TopViewController.swift
 "Top" = "トップ";
 "NavigationBackButton event handling" = "ナビゲーションバックボタンのイベントハンドリング";
+"TableView with multiple cell types" = "複数のセルタイプを持つテーブルビュー";
 
 // MARK: - NavigationNextViewController
 "Confirm" = "確認";
 "Your entries have not been saved.\nAre you sure you want to finish editing?" = "変更内容が保存されていません。\n編集を終了してよろしいですか?";
+
+// MARK: - ProfileViewController
+"Profile" = "プロフィール";
