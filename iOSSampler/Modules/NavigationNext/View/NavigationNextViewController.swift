@@ -34,9 +34,9 @@ extension NavigationNextViewController: NavigationNextView {
 
 // MARK: - Private
 extension NavigationNextViewController {
-    /// ナビゲーションバーのBackボタンにイベントをつける
+    /// ナビゲーションバーのBackボタンにイベントを登録する
     private func setupNavigationBackButton() {
-        addNavigationBackEvent(title: "Top".localized) { [weak self] in
+        addNavigationBackEvent { [weak self] in
             guard let `self` = self else {
                 return
             }

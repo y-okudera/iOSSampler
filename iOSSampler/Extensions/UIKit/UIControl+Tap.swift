@@ -1,5 +1,5 @@
 //
-//  UIButton+Tap.swift
+//  UIControl+Tap.swift
 //  iOSSampler
 //
 //  Created by Yuki Okudera on 2020/02/02.
@@ -10,9 +10,9 @@ import UIKit
 
 typealias TapEvent = () -> Void
 
-extension UIButton {
+extension UIControl {
     
-    /// ボタンのタップイベントをクロージャで登録する
+    /// タップイベントをクロージャで登録する
     func tap(action: @escaping TapEvent) {
         self.eventListener(controlEvents: .touchUpInside, forAction: action)
     }
@@ -23,7 +23,7 @@ extension UIButton {
     }
 }
 
-private extension UIButton {
+private extension UIControl {
     
     func actionHandler(action: (TapEvent)? = nil) {
         struct ActionHolder {
