@@ -39,7 +39,7 @@
 		6486662923C6F44A0077D9FB /* String+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486662823C6F44A0077D9FB /* String+Localize.swift */; };
 		6486662B23C6FF0A0077D9FB /* UITableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486662A23C6FF0A0077D9FB /* UITableViewCell+Identifier.swift */; };
 		6486662D23C6FF3C0077D9FB /* UITableView+CellCastable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486662C23C6FF3C0077D9FB /* UITableView+CellCastable.swift */; };
-		64A1EBE323E6EAAA0059F483 /* UIButton+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1EBE223E6EAAA0059F483 /* UIButton+Tap.swift */; };
+		64A1EBE323E6EAAA0059F483 /* UIControl+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1EBE223E6EAAA0059F483 /* UIControl+Tap.swift */; };
 		64A1EBE523E6F5320059F483 /* UIView+RecursiveSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1EBE423E6F5320059F483 /* UIView+RecursiveSubviews.swift */; };
 		64A1EBE723E6F7410059F483 /* UIViewController+AddNavigationBackEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1EBE623E6F7410059F483 /* UIViewController+AddNavigationBackEvent.swift */; };
 		6PKOYY81J2VSFQHVX4839LW7 /* NavigationNextViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = KDH9ZAVGZVXUQZH6SM7469V0 /* NavigationNextViewPresenter.swift */; };
@@ -118,7 +118,7 @@
 		6486662823C6F44A0077D9FB /* String+Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localize.swift"; sourceTree = "<group>"; };
 		6486662A23C6FF0A0077D9FB /* UITableViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Identifier.swift"; sourceTree = "<group>"; };
 		6486662C23C6FF3C0077D9FB /* UITableView+CellCastable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+CellCastable.swift"; sourceTree = "<group>"; };
-		64A1EBE223E6EAAA0059F483 /* UIButton+Tap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Tap.swift"; sourceTree = "<group>"; };
+		64A1EBE223E6EAAA0059F483 /* UIControl+Tap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Tap.swift"; sourceTree = "<group>"; };
 		64A1EBE423E6F5320059F483 /* UIView+RecursiveSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RecursiveSubviews.swift"; sourceTree = "<group>"; };
 		64A1EBE623E6F7410059F483 /* UIViewController+AddNavigationBackEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AddNavigationBackEvent.swift"; sourceTree = "<group>"; };
 		650EGX9KVEQJ18U6NCS70BGS /* NavigationNextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationNextViewController.swift; sourceTree = "<group>"; };
@@ -310,7 +310,7 @@
 			children = (
 				6486661223C6C5B90077D9FB /* AppDelegate+FirstView.swift */,
 				6486661823C6D6900077D9FB /* SceneDelegate+FirstView.swift */,
-				64A1EBE223E6EAAA0059F483 /* UIButton+Tap.swift */,
+				64A1EBE223E6EAAA0059F483 /* UIControl+Tap.swift */,
 				6486662C23C6FF3C0077D9FB /* UITableView+CellCastable.swift */,
 				6486662A23C6FF0A0077D9FB /* UITableViewCell+Identifier.swift */,
 				64A1EBE423E6F5320059F483 /* UIView+RecursiveSubviews.swift */,
@@ -596,7 +596,7 @@
 				6468773023E71321003039B8 /* NamePictureCell.swift in Sources */,
 				6486662D23C6FF3C0077D9FB /* UITableView+CellCastable.swift in Sources */,
 				6486661523C6C6F30077D9FB /* TopTableViewCell.swift in Sources */,
-				64A1EBE323E6EAAA0059F483 /* UIButton+Tap.swift in Sources */,
+				64A1EBE323E6EAAA0059F483 /* UIControl+Tap.swift in Sources */,
 				6PKOYY81J2VSFQHVX4839LW7 /* NavigationNextViewPresenter.swift in Sources */,
 				6468774523E71FDE003039B8 /* JSONFileReader.swift in Sources */,
 				9QM6WWG5U6Q09RYEVL5OV767 /* NavigationNextViewController.swift in Sources */,
